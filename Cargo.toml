@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "mediavault_common",
+    "mediavault_frontend",
+    "mediavault",
+]

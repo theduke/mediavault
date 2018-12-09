@@ -1,0 +1,12 @@
+[package]
+name = "mediavault_common"
+version = "0.1.0"
+authors = ["Christoph Herzog <chris@theduke.at>"]
+edition = "2018"
+
+[dependencies]
+serde = "1.0.80"
+serde_derive = "1.0.80"
+chrono = { version = "0.4.6", features = ["serde"] }
+serde_json = "1.0.33"
+failure = "0.1"

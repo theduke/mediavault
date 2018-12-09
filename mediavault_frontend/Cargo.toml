@@ -1,0 +1,17 @@
+[package]
+name = "mediavault_frontend"
+version = "0.1.0"
+authors = ["Christoph Herzog <chris@theduke.at>"]
+edition = "2018"
+
+[dependencies]
+draco = "0.1.1"
+wasm-bindgen = { version = "0.2.28", features = ["serde-serialize"] }
+mediavault_common = { path = "../mediavault_common" }
+serde_json = "1.0.33"
+futures = "0.1.25"
+wasm-bindgen-futures = { version = "0.3.5" }
+web-sys = { version = "0.3.5", features = ["console", "Document", "Element", "Event", "EventTarget", "History", "HtmlElement", "HtmlInputElement", "HtmlTextAreaElement", "HtmlSelectElement", "Location", "MouseEvent", "Node", "NodeList", "Performance", "Request", "RequestInit", "RequestMode", "Response", "Storage", "Text", "Window"] }
+url = "1.7.2"
+serde = "1.0.80"
+js-sys = "0.3.6"

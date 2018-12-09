@@ -1,0 +1,80 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.m-Root {
+    height: 100%;
+}
+
+.m-Files {
+    height: 100%;
+    display: flex;
+}
+
+.m-Files-Filter {
+    width: 250px;
+    overflow: hidden;
+}
+
+.m-Files-Browser {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.m-Files-Viewer {
+    flex-grow: 1;
+    display: flex;
+}
+
+.m-Files-pager {
+    display: flex;
+    justify-content: center;
+}
+
+.m-Files-File {
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.m-Files-Image {
+    width: 100%;
+    height: 100%;
+}
+
+.m-FileView {
+    display: flex;
+}
+
+.m-FileView-SideBar {
+    width: 20%;
+    padding: 0.5em;
+}
+
+.m-FileView-SideBar input, .m-FileView-SideBar textarea {
+    width: 100%;
+}
+
+.m-FileView-Viewer {
+    flex-grow: 1;
+}
+
+.m-TagEditor-Tags {
+    display: flex;
+}
+
+.m-TagEditor-Tag {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 0.3em;
+    margin: 5px;
+}
+
+.m-TagEditor-Remove {
+    cursor: pointer;
+    padding-left: 3px;
+}
